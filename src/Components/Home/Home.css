@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Mako&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.final-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.right-wrapper-home,
+.left-wrapper-home {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0;
+  height: 603px;
+  opacity: 0; /* Initial hidden state for animation */
+}
+
+.left-wrapper-home {
+  width: 38%;
+  background-image: url("../../Asserts/Rig.png");
+  animation: slideInLeft 1.5s ease forwards; /* Animation applied */
+}
+
+.right-wrapper-home {
+  width: 40%;
+  background-image: url("../../Asserts/Lef.png");
+  animation: slideInRight 1.5s ease forwards; /* Animation applied */
+}
+
+/* Keyframes for sliding animations */
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(1px);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.some {
+  width: 100%;
+}
+
+.last {
+  background-color: var(--blue-card);
+  padding: 40px;
+  margin-bottom: 98px;
+}
+
+.line {
+  height: 1px;
+  width: 450px;
+  background-color: #d0d0d0;
+}
+
+.latest {
+  font-family: "Mako", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 37px;
+  color: var(--Tcolor);
+}
+
+.inline-card {
+  background-color: var(--white);
+  padding: 20px 20px;
+  border-radius: 6px;
+}
+
+.ico {
+  font-family: "Poppoins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 18px;
+  color: var(--Tcolor);
+}
+
+.blue-wrapper {
+  background-color: var(--blue-card);
+  padding: 58px 37px 0px;
+  border-radius: 6px;
+}
+
+.para {
+  font-family: "Poppoins", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--Tcolor);
+  margin-top: 8px;
+}
+
+.full-line {
+  width: 100%;
+  height: 1px;
+  background-color: #d0d0d0;
+
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Issue Tracker</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="dashboard.html">Home</a></li>
+            <li><a href="issue.html">Issue Tracker</a></li>
+        </ul>
+
+    </nav>
+    <div class="form-section">
+        <h2>Report an Issue</h2>
+        <form id="issueForm">
+            <label style= "padding-right: 350px;">Name:</label><br>
+            <input type="text" placeholder="Enter your Name" required>
+            <label style="padding-right: 350px;">Email:</label><br>
+            <input type="email" placeholder="Enter your Email" required>
+            <label style="padding-right: 340px;">Roll No:</label>
+            <input type="text" placeholder="Enter your Roll Number:" required>
+            <label style="padding-right: 282px;">Phone Number:</label>
+            <input type="number" placeholder="Enter your Number" required>
+            <label style="padding-right: 350px;">Department:</label>
+            <input type="text" placeholder="Enter your Department" required>
+            <label style="padding-right: 310px;">Issue Type:</label>
+            <input type="text" placeholder="Issue " required>
+
+            <select name="Select issue" id="Issues">
+                <option value="Ragging">Ragging</option>
+                <option value="Staff Issues">Staff Issue</option>
+                <option value="Hostel Issues">Hostel Issue</option>
+                <option value="Facilities Issue">Facilities Issue</option>
+              </select><br>
+              <label style="padding-right: 300px;">Description:</label>
+            <textarea placeholder="Issue Description" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+ 
+</body>
+</html>
