@@ -2,6 +2,8 @@ import React from "react";
 import Navbar from "../Navbar/Navbar";
 import "./Home.css";
 import img1 from "../../Asserts/img1.png";
+import img2 from "../../Asserts/img2.png";
+import img3 from "../../Asserts/img3.png";
 import Footer from "../Footer/Footer";
 
 const Home = () => {
@@ -35,19 +37,19 @@ const Home = () => {
 
               <div className="inline-card pt-4 pb-2">
                 <div className="blue-wrapper">
-                  <img src={img1} alt="" />
+                  <img src={img2} alt="" />
                 </div>
 
-                <h3 className="ico">ICO Landing Page</h3>
+                <h3 className="ico">P2P Landing Page</h3>
                 <p className="para">Website Design</p>
               </div>
 
               <div className="inline-card pt-4 pb-2">
                 <div className="blue-wrapper">
-                  <img src={img1} alt="" />
+                  <img src={img3} alt="" />
                 </div>
 
-                <h3 className="ico">ICO Landing Page</h3>
+                <h3 className="ico">Crypto Hub</h3>
                 <p className="para">Website Design</p>
               </div>
             </div>

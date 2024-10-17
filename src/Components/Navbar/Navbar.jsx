@@ -29,7 +29,7 @@ const Navbar = () => {
             <ul className="navbar-nav ms-auto me-auto d-flex justify-content-center align-items-center">
               <li className="nav-item">
                 <Link
-                  className="nav-link mx-3 text-light active"
+                  className="nav-link mx-4 text-light active"
                   aria-current="page"
                   to=""
                 >
@@ -37,12 +37,12 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link mx-3 text-light" to="">
+                <Link className="nav-link mx-4 text-light" to="">
                   Capstones
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link mx-3 text-light" to="">
+                <Link className="nav-link mx-2 text-light" to="">
                   Contact
                 </Link>
               </li>
@@ -50,8 +50,8 @@ const Navbar = () => {
           </div>
           <div className="contactus-link">
             <div className="">
-              <img className=" mx-4" src={Linkedin} alt="" />
-              <img className="mx-3" src={Behance} alt="" />
+              <img className=" mx-3" src={Linkedin} alt="" />
+              <img className="mx-2" src={Behance} alt="" />
             </div>
           </div>
         </div>
