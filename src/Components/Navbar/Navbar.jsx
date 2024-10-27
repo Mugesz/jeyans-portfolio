@@ -31,7 +31,7 @@ const Navbar = () => {
                 <Link
                   className="nav-link mx-4 text-light active"
                   aria-current="page"
-                  to=""
+                  to="/about-us"
                 >
                   About
                 </Link>

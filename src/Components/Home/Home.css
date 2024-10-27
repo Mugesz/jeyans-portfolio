@@ -21,13 +21,13 @@
 .left-wrapper-home {
   width: 592.12px;
   background-image: url("../../Asserts/Lef.png");
-  animation: slideInLeft 1.5s ease forwards; /* Animation applied */
+  animation: slideInLeft 1.5s ease forwards; 
 }
 
 .right-wrapper-home {
   width:592.12px;
   background-image: url("../../Asserts/Rig.png");
-  animation: slideInRight 1.5s ease forwards; /* Animation applied */
+  animation: slideInRight 1.5s ease forwards;
 }
 
 /* Keyframes for sliding animations */
@@ -105,13 +105,14 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
-  color: var(--Tcolor);
+  color: var(--clrpp1);
   margin-top: 8px;
 }
 
 .full-line {
   width: 100%;
   height: 1px;
-  background-color: #d0d0d0;
+  background-color: #d9d9d9;
+  top: 76vh;
 
 }

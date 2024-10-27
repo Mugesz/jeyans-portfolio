@@ -11,8 +11,8 @@ const Home = () => {
     <div>
       <Navbar />
 
-      <section>
-        <div className="full-line"></div>
+      <section className=" position-relative">
+        <div className="full-line  position-absolute bottom-0"></div>
         <div className="container home-section">
           <div className="final-wrapper mb-0">
             <div className="left-wrapper-home"></div>
