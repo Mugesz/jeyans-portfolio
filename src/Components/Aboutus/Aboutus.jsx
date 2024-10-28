@@ -31,7 +31,7 @@ const Aboutus = () => {
               <img
                 className="jayan-img mt-5"
                 src={Jeyan}
-                alt="About Us Image"
+                alt="About Us"
               />
             </div>
           </div>
