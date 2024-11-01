@@ -56,12 +56,12 @@ const Aboutus = () => {
             </div>
             <div className="bulb-right d-flex flex-column justify-content-center align-items-center">
               <div className="cotent1">
-                <h5 className="ui">UiUx Designer</h5>
-                <p className="bulb-para">UI Design</p>
-                <p className="bulb-para">UX Design</p>
-                <p className="bulb-para">Design Systems</p>
-                <p className="bulb-para">Interaction Design</p>
-                <p className="bulb-para">“Listening Songs”</p>
+                <h5 className="ui">Graphic  Designer</h5>
+                <p className="bulb-para">Poster Design</p>
+                <p className="bulb-para">Logo Design</p>
+                <p className="bulb-para">ID Card Design</p>
+                <p className="bulb-para">Business Card Design</p>
+                <p className="bulb-para">Envelop Cover Design</p>
               </div>
             </div>
           </div>
