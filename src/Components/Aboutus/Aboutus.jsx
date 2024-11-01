@@ -54,7 +54,7 @@ const Aboutus = () => {
             <div className="bulb-middle">
                 <img src={bulb} alt="" />
             </div>
-            <div className="bulb-right">
+            <div className="bulb-right d-flex flex-column justify-content-center align-items-center">
               <div className="cotent1">
                 <h5 className="ui">UiUx Designer</h5>
                 <p className="bulb-para">UI Design</p>
