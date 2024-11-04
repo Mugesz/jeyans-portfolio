@@ -8,8 +8,8 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div>
-      <nav className="navbar navbar-expand-lg bg-body-territory">
+    <div className="main-nav">
+      <nav className="navbar navbar-expand-lg bg-body-territory position-fixed">
         <div className="container">
           <Link className="navbar-brand" to="/">
             <img src={logo} alt="logo" />

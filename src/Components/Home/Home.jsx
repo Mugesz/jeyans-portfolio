@@ -63,3 +63,5 @@ const Home = () => {
 };
 
 export default Home;
+
+// fix the content with its own origin and make the changes
