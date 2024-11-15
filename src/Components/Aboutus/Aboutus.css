@@ -69,17 +69,16 @@
   font-style: normal;
   font-size: 28px !important;
   line-height: 38px;
-  color: #FBAC19;
+  color: #fbac19;
   margin-bottom: 20px;
 }
 .bulb-para {
-    font-family: "Mako", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px !important;
-    line-height: 28px;
-    color: var(--Tcolor);
-   
+  font-family: "Mako", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px !important;
+  line-height: 28px;
+  color: var(--Tcolor);
 }
 
 .bulb-section {
@@ -88,4 +87,56 @@
 }
 .cotent1 {
   padding-top: 60px;
+}
+
+.main-section-skill {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+/* randomfacts */
+
+.main-facts-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.random {
+  width: 100%;
+  border: 1px solid #d0d0d0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.random-left {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.random-right {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.facts {
+  font-family: "Mako", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px !important;
+  line-height: 38px;
+  color: var(--Tcolor);
+  margin-bottom: 20px;
+}
+
+.para-fact {
+  font-family: "Mako", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px !important;
+  line-height: 23px;
+  color: var(--clr);
+  width: 80%;
 }

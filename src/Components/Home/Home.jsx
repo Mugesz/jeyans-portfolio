@@ -11,7 +11,7 @@ const Home = () => {
     <div>
       <Navbar />
 
-      <section className=" position-relative">
+      <section className="margin-section position-relative">
         <div className="full-line  position-absolute bottom-0"></div>
         <div className="container home-section">
           <div className="final-wrapper mb-0">
@@ -26,7 +26,7 @@ const Home = () => {
               <div className="line"></div>
             </div>
             <div className=" d-flex justify-content-around align-items-center last last-card ">
-              <div className="inline-card pt-4 pb-2">
+              <div className="inline-card pt-4 pb-2 blue-1">
                 <div className="blue-wrapper">
                   <img src={img1} alt="" />
                 </div>
@@ -35,7 +35,7 @@ const Home = () => {
                 <p className="para">Website Design</p>
               </div>
 
-              <div className="inline-card pt-4 pb-2">
+              <div className="inline-card pt-4 pb-2 blue-2">
                 <div className="blue-wrapper">
                   <img src={img2} alt="" />
                 </div>
@@ -44,7 +44,7 @@ const Home = () => {
                 <p className="para">Website Design</p>
               </div>
 
-              <div className="inline-card pt-4 pb-2">
+              <div className="inline-card pt-4 pb-2 blue-3">
                 <div className="blue-wrapper">
                   <img src={img3} alt="" />
                 </div>

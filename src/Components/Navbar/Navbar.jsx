@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="main-nav">
-      <nav className="navbar navbar-expand-lg bg-body-territory position-fixed">
+      <nav className="navbar navbar-expand-lg bg-body-territory position-fixed w-100 z-3">
         <div className="container">
           <Link className="navbar-brand" to="/">
             <img src={logo} alt="logo" />
@@ -50,7 +50,7 @@ const Navbar = () => {
           </div>
           <div className="contactus-link">
             <div className="">
-              <img className=" mx-3" src={Linkedin} alt="" />
+              <img className="mx-3" src={Linkedin} alt="" />
               <img className="mx-2" src={Behance} alt="" />
             </div>
           </div>
