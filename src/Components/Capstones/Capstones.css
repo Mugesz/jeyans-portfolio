@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Mako&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.last-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates 3 columns of equal width */
+  gap: 1.5rem; /* Adjust the spacing between grid items */
+}
+.about {
+  font-family: "Poppoins", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 96px;
+  color: var(--Tcolor);
+}
+.capstones {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 24px;
+  margin-top: 18px;
+  color: var(--Tcolor);
+}
+
+.studies {
+    font-family: "Mako", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px !important;
+    line-height: 37px;
+    color: var(--clr);
+}
+
+.designs{
+    font-family: "Mako", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px !important;
+    line-height: 37px;
+    color: var(--Tcolor);
+}
+
+.top-section-div {
+  padding-top: 80px;
+}
+
+.Caps{
+  width: 100%;
+}
+
+.latest{
+  font-family: "Mako", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px !important;
+  line-height: 37px;
+  color: var(--clr);
+}

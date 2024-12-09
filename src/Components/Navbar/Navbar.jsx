@@ -37,7 +37,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link mx-4 text-light" to="">
+                <Link className="nav-link mx-4 text-light" to="/capstones">
                   Capstones
                 </Link>
               </li>
