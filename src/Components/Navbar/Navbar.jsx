@@ -42,7 +42,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link mx-2 text-light" to="">
+                <Link className="nav-link mx-2 text-light" to="/Contactus">
                   Contact
                 </Link>
               </li>
