@@ -36,6 +36,15 @@ const Contact = () => {
           </div>
         </div>
       </section>
+      <section className="container pt-5">
+        <div className="d-flex justify-content-center align-items-center"> <div className="contact">
+          <form action="" >
+            <input className="input" type="text"/> <br />
+            <button className="but" type="submit">Submit</button>
+          </form>
+        </div></div>
+     
+      </section>
       <Footer />{" "}
     </>
   );

@@ -1,0 +1,14 @@
+.input {
+    height: 150px;
+    width: 1000px;
+}
+
+.but {
+    background-color: #2B7EE5;
+    padding:10px;
+    border: 1px solid #2B7EE5;
+    border-radius: 12px;
+    color: white;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
