@@ -1,26 +1,30 @@
-.input {
-    height: 150px;
-    width: 1000px;
+.ico {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px !important;
+    line-height: 37px;
+    color: var(--Tcolor);
 }
 
-.but {
-    background-color: #2B7EE5;
-    padding:10px;
-    border: 1px solid #2B7EE5;
-    border-radius: 12px;
-    color: white;
-    font-size: 1.2em;
-    margin-top: 20px;
+.initial {
+    font-family: "Mako", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 18px;
+    color: var(--Tcolor);
+}
+.web {
+    font-family: "Mako", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 16px;
+    color: var(--clr);
 }
 
-.mail button {
-  border: 0px;
-  border-radius: 6px;
-  background-color: #2B7EE5;
-  color: white;
-  font-size: 22px;
-}
-
-.mail {
-    margin-top: 150px;
+.ico-section {
+    padding-top: 80px;
+    padding-bottom: 60px;
 }

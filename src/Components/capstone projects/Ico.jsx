@@ -2,44 +2,43 @@ import React from "react";
 import "./style.css";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
-import Jeyan from "../../Asserts/jai.svg";
-import Linked from "../../Asserts/Linked.svg";
-import Behan from "../../Asserts/Behanc.svg";
+import icotop from "../../Asserts/icotop.svg"
 const ico = () => {
   return (
     <>
-    <Navbar />
-    <section className="Contactus-section container">
-      <div className="">
-        <div className="d-flex justify-content-center align-items-center">
-          <div className="top-section-div">
-            {" "}
-            <h3 className="latest mt-3">
-              Get in touch with me via social media or email.{" "}
-            </h3>
-            <div className="d-flex">
-              <div>
-                <img src={Linked} alt="" />
+      <Navbar />
+      <section className="ico-section">
+      <div className="line"></div>
+        <div className=" container pt-5">
+          <div className="d-flex justify-content-center align-items-baseline ">
+            <div className="contents">
+              <h3 className="ico mt-3 w-75">
+                Initial Coin Offering (ICO) Landing page 
+                revamp design{" "}
+              </h3>
+              <div className="d-flex w-50 justify-content-between web mt-5">
+                <h4>Website Design</h4>
+                <h4>2024</h4>
               </div>
-              <div>
-                <img src={Behan} alt="" />
-              </div>
+              <p className="initial mt-5 w-75">
+                An Initial Coin Offering (ICO) is a fundraising method used by
+                cryptocurrency startups to raise capital by selling a new
+                digital token or cryptocurrency. Investors purchase these tokens
+                with the expectation that the value may increase, similar to an
+                IPO in traditional finance. ICOs are often used to fund new
+                blockchain projects.
+              </p>
             </div>
-            <div className="mail">
-              <button className=" p-2" src="mailtojeyan@gmail.com">Send Mail</button>
-            </div>
-          </div>
-        
 
-          <div className="right about-img-div d-flex justify-content-center align-items-center">
-            <img className="jayan-img mt-5" src={Jeyan} alt="About Us" />
+            <div className="">
+              <img src={icotop} alt="" />
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <Footer />{" "}
-  </>
-  )
-}
+      </section>
+      <Footer />
+    </>
+  );
+};
 
-export default ico
+export default ico;
