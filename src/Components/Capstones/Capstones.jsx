@@ -12,7 +12,8 @@ const Capstones = () => {
   return (
     <>
       <Navbar />
-      <section>
+      <section className="caps-section">
+        <div className="line customline"></div>
         <div className="top-section-div container">
           <div className="left about-content-div d-flex justify-content-center align-items-center Caps">
             <div className="contents w-100 d-flex flex-column justify-content-center align-items-center">
@@ -28,16 +29,13 @@ const Capstones = () => {
             </div>
           </div>
 
-          <div className="image d-flex justify-content-center align-items-center">
+          <div className="image caps-image d-flex justify-content-center align-items-center">
             <img src={Caps} alt="" />
           </div>
 
           <div className="cards-blue">
             <div className="pt-3 pb-3 some">
               <div className="content-div w-100 d-flex justify-content-center align-items-center gap-5 mb-2">
-                <div className="line"></div>
-                <h5 className="text-center latest">Some of my latest work</h5>
-                <div className="line"></div>
               </div>
               <div className=" d-grid  last last-card ">
                 <div className="inline-card pt-4 pb-2 blue-1">

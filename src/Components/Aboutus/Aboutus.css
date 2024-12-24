@@ -140,3 +140,14 @@
   color: var(--clr);
   width: 80%;
 }
+
+.about-section {
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.about-line {
+  position: absolute;
+  width: 100%;
+  top: 30%;
+}

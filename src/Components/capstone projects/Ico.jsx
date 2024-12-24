@@ -2,19 +2,23 @@ import React from "react";
 import "./style.css";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
-import icotop from "../../Asserts/icotop.svg"
+import icotop from "../../Asserts/icotop.svg";
+import icofull from "../../Asserts/icofull.svg";
+import img1 from "../../Asserts/img1.png";
+import img2 from "../../Asserts/img2.png";
+import { Link } from "react-router-dom";
 const ico = () => {
   return (
     <>
       <Navbar />
       <section className="ico-section">
-      <div className="line"></div>
-        <div className=" container pt-5">
+        <div className="line ico-line"></div>
+        <div className="line-ico"></div>
+        <div className=" container ">
           <div className="d-flex justify-content-center align-items-baseline ">
             <div className="contents">
               <h3 className="ico mt-3 w-75">
-                Initial Coin Offering (ICO) Landing page 
-                revamp design{" "}
+                Initial Coin Offering (ICO) Landing page revamp design{" "}
               </h3>
               <div className="d-flex w-50 justify-content-between web mt-5">
                 <h4>Website Design</h4>
@@ -31,7 +35,55 @@ const ico = () => {
             </div>
 
             <div className="">
-              <img src={icotop} alt="" />
+              <img className="icoimg" src={icotop} alt="" />
+            </div>
+          </div>
+        </div>
+        <div className="main-caps container">
+          <h3 className="view">Landing page view</h3>
+          <div className="full-image">
+            <img className="ico-full" src={icofull} alt="" />
+          </div>
+        </div>
+
+        <div className="morecaps container">
+          <div className="content-div w-100 d-flex justify-content-center align-items-center gap-5 mb-2">
+            <div className="line"></div>
+            <h5 className="text-center latest more">More from my capstones</h5>
+
+            <div className="line"></div>
+          </div>
+          <div className="cards-blue">
+            <div className="pt-3 pb-3 some">
+              <div className="content-div w-100 d-flex justify-content-center align-items-center gap-5 mb-2"></div>
+              <div className=" d-grid  last last-card ">
+                <div className="inline-card pt-4 pb-2 blue-1">
+                  <div className="blue-wrapper">
+                    <img src={img1} alt="" />
+                  </div>
+
+                  <h3 className="ico">ICO Landing Page</h3>
+                  <p className="para">Website Design</p>
+                </div>
+
+                <div className="inline-card pt-4 pb-2 blue-2">
+                  <div className="blue-wrapper">
+                    <img src={img2} alt="" />
+                  </div>
+
+                  <h3 className="ico">P2P Landing Page</h3>
+                  <p className="para">Website Design</p>
+                </div>
+
+                <div className="inline-card pt-4 pb-2 blue-2">
+                  <div className="blue-wrapper">
+                    <img src={img2} alt="" />
+                  </div>
+
+                  <h3 className="ico">P2P Landing Page</h3>
+                  <p className="para">Website Design</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

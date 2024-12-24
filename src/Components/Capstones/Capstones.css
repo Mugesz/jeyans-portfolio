@@ -56,3 +56,18 @@
   line-height: 37px;
   color: var(--clr);
 }
+
+.caps-dection{
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.customline{
+  position: absolute;
+  top: 65%;
+  width: 100%;
+}
+
+.caps-image{
+  margin-bottom: 120px;
+}
