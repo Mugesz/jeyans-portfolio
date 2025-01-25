@@ -99,12 +99,12 @@
   transition: height 0.3s ease; /* Smooth image height change */
 }
 
-.inline-card:hover {
-  transform: translateY(-5px); /* Slight lift effect on hover */
-}
+/* .inline-card:hover {
+  transform: translateY(-5px); 
+} */
 
 .inline-card:hover img {
-  height: 105px; /* Increased height on hover */
+  transform: scale(1.05);
 }
 
 .blue-wrapper {
@@ -115,9 +115,6 @@
   transition: padding 0.3s ease; /* Smooth padding transition */
 }
 
-.inline-card:hover .blue-wrapper {
-  padding: 40px 15px 0px; /* Reduced padding on hover */
-}
 
 .ico {
   font-family: "Poppins", sans-serif;

@@ -24,3 +24,13 @@
 .mail {
     margin-top: 150px;
 }
+
+input{
+    height: 52px;
+    border: #333333;
+}
+
+textarea{
+    max-height: 200px;
+    min-height: 150px;
+}

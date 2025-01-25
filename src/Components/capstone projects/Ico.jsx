@@ -4,8 +4,9 @@ import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import icotop from "../../Asserts/icotop.svg";
 import icofull from "../../Asserts/icofull.svg";
-import img1 from "../../Asserts/img1.png";
+import Tcypro from "../../Asserts/tcypro.svg";
 import img2 from "../../Asserts/img2.png";
+import Tph from "../../Asserts/Tph.svg";
 import { Link } from "react-router-dom";
 const ico = () => {
   return (
@@ -57,32 +58,40 @@ const ico = () => {
             <div className="pt-3 pb-3 some">
               <div className="content-div w-100 d-flex justify-content-center align-items-center gap-5 mb-2"></div>
               <div className=" d-grid  last last-card ">
-                <div className="inline-card pt-4 pb-2 blue-1">
-                  <div className="blue-wrapper">
-                    <img src={img1} alt="" />
+                <Link to="/capstone/peer-to-peer">
+                  {" "}
+                  <div className="inline-card pt-4 pb-2 blue-1">
+                    <div className="blue-wrapper">
+                      <img src={img2} alt="" />
+                    </div>
+
+                    <h3 className="ico">P2P Landing Page</h3>
+                    <p className="para">Website Design</p>
                   </div>
+                </Link>
 
-                  <h3 className="ico">ICO Landing Page</h3>
-                  <p className="para">Website Design</p>
-                </div>
+                <Link to="">
+                  {" "}
+                  <div className="inline-card pt-4 pb-2 blue-2">
+                    <div className="blue-wrapper">
+                      <img src={Tcypro} alt="" />
+                    </div>
 
-                <div className="inline-card pt-4 pb-2 blue-2">
-                  <div className="blue-wrapper">
-                    <img src={img2} alt="" />
+                    <h3 className="ico">Crypto Hub</h3>
+                    <p className="para">Website Design</p>
                   </div>
+                </Link>
 
-                  <h3 className="ico">P2P Landing Page</h3>
-                  <p className="para">Website Design</p>
-                </div>
+                <Link to="">
+                  <div className="inline-card pt-4 pb-2 blue-2">
+                    <div className="blue-wrapper">
+                      <img src={Tph} alt="" />
+                    </div>
 
-                <div className="inline-card pt-4 pb-2 blue-2">
-                  <div className="blue-wrapper">
-                    <img src={img2} alt="" />
+                    <h3 className="ico">P2P Landing Page</h3>
+                    <p className="para">Website Design</p>
                   </div>
-
-                  <h3 className="ico">P2P Landing Page</h3>
-                  <p className="para">Website Design</p>
-                </div>
+                </Link>
               </div>
             </div>
           </div>
