@@ -70,7 +70,7 @@ const ico = () => {
                   </div>
                 </Link>
 
-                <Link to="">
+                <Link to="/capstone/Crypto-hub">
                   {" "}
                   <div className="inline-card pt-4 pb-2 blue-2">
                     <div className="blue-wrapper">

@@ -8,6 +8,7 @@ import Capstones from "./Components/Capstones/Capstones";
 import Contact from "./Components/Contact/Contact";
 import Ico from "./Components/capstone projects/Ico"
 import Peertopeer from "./Components/capstone projects/Peertopeer"
+import Crypto from "./Components/capstone projects/Crypto";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/Contactus" element={<Contact />} />
         <Route path="/capstone/ico" element={<Ico />} />
         <Route path="/capstone/peer-to-peer" element={<Peertopeer />} />
+        <Route path="/capstone/Crypto-hub" element={<Crypto />} />
       </Routes>
     </BrowserRouter>
   );
