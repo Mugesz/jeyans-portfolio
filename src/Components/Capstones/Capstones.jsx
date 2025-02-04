@@ -7,16 +7,22 @@ import img1 from "../../Asserts/img1.png";
 import img2 from "../../Asserts/img2.png";
 import img3 from "../../Asserts/img3.png";
 import Tcypro from "../../Asserts/tcypro.svg";
-import Tph from "../../Asserts/Tph.svg"
-import Digis from "../../Asserts/Digi-small.png"
-import Voltrixs from "../../Asserts/Voltrix-small.png"
-import beleafts from "../../Asserts/Beleaft-small.png"
-import Beleafa from "../../Asserts/BeleafA-small.png"
-import Rifas from "../../Asserts/Rifa-small.png"
-import Rifs from "../../Asserts/Rifaw-small.png"
-import Digis from "../../Asserts/Digi-small.png"
-import Digis from "../../Asserts/Digi-small.png"
-import Digis from "../../Asserts/Digi-small.png"
+import Tph from "../../Asserts/Tph.svg";
+import Digis from "../../Asserts/Digi-small.png";
+import Voltrixs from "../../Asserts/Voltrix-small.png";
+import beleafts from "../../Asserts/Beleaft-small.png";
+import Beleafa from "../../Asserts/BeleafA-small.png";
+import Rifas from "../../Asserts/Rifa-small.png";
+import Rifs from "../../Asserts/Rifaw-small.png";
+import Rifaw from "../../Asserts/Rifaw-small.png";
+import Brand from "../../Asserts/BrandI-small.png";
+import Port from "../../Asserts/Portfolio-small.png";
+import evaloo from "../../Asserts/Evaloo-small.png";
+import hue from "../../Asserts/heuristic-small.png";
+import ux from "../../Asserts/Uxlaws-small.png";
+import ram from "../../Asserts/heyram-small.png";
+import jm from "../../Asserts/jm-small.png";
+import Netflix from "../../Asserts/netflix-small.png";
 
 import { Link } from "react-router-dom";
 
@@ -98,7 +104,7 @@ const Capstones = () => {
                     </div>
 
                     <h3 className="ico">Digi Class</h3>
-                    <p className="para">Website Design</p>
+                    <p className="para">Dashboard Design</p>
                   </div>
                 </Link>{" "}
                 <Link to="/capstone/ico">
@@ -108,7 +114,7 @@ const Capstones = () => {
                     </div>
 
                     <h3 className="ico">Voltrix</h3>
-                    <p className="para">Website Design</p>
+                    <p className="para">Pitch Deck</p>
                   </div>
                 </Link>{" "}
                 <Link to="/capstone/ico">
@@ -118,7 +124,7 @@ const Capstones = () => {
                     </div>
 
                     <h3 className="ico">Beleaf Trading Bot</h3>
-                    <p className="para">Website Design</p>
+                    <p className="para">Pitch Deck</p>
                   </div>
                 </Link>{" "}
                 <Link to="/capstone/ico">
@@ -128,75 +134,110 @@ const Capstones = () => {
                     </div>
 
                     <h3 className="ico">Beleaf Arbitrage Bot</h3>
-                    <p className="para">Website Design</p>
+                    <p className="para">Pitch Deck</p>
                   </div>
                 </Link>{" "}
-                <Link to="/capstone/ico">
-                  <div className="inline-card pt-4 pb-2 blue-2">
-                    <div className="blue-wrapper">
-                      <img src={Rifas} alt="" />
-                    </div>
-
-                    <h3 className="ico">Rifa World Company</h3>
-                    <p className="para">Website Design</p>
-                  </div>
-                </Link>
-
                 <Link to="/capstone/ico">
                   <div className="inline-card pt-4 pb-2 blue-2">
                     <div className="blue-wrapper">
                       <img src={Rifs} alt="" />
                     </div>
 
+                    <h3 className="ico">Rifa World Company</h3>
+                    <p className="para">Banner Design</p>
+                  </div>
+                </Link>
+                <Link to="/capstone/ico">
+                  <div className="inline-card pt-4 pb-2 blue-2">
+                    <div className="blue-wrapper">
+                      <img src={Rifaw} alt="" />
+                    </div>
+
                     <h3 className="ico">Rifa World Company 2</h3>
-                    <p className="para">Website Design</p>
+                    <p className="para">Banner Design</p>
                   </div>
-                </Link> <Link to="/capstone/ico">
+                </Link>{" "}
+                <Link to="/capstone/ico">
                   <div className="inline-card pt-4 pb-2 blue-2">
                     <div className="blue-wrapper">
-                      <img src={Rifas} alt="" />
+                      <img src={Brand} alt="" />
                     </div>
 
-                    <h3 className="ico">Rifa World Company</h3>
-                    <p className="para">Website Design</p>
+                    <h3 className="ico">Brand Identity</h3>
+                    <p className="para">Graphic Design</p>
                   </div>
-                </Link> <Link to="/capstone/ico">
+                </Link>{" "}
+                <Link to="/capstone/ico">
                   <div className="inline-card pt-4 pb-2 blue-2">
                     <div className="blue-wrapper">
-                      <img src={Rifas} alt="" />
+                      <img src={Port} alt="" />
                     </div>
 
-                    <h3 className="ico">Rifa World Company</h3>
-                    <p className="para">Website Design</p>
+                    <h3 className="ico">Poster Design</h3>
+                    <p className="para">Graphic Design</p>
                   </div>
-                </Link> <Link to="/capstone/ico">
+                </Link>{" "}
+                <Link to="/capstone/ico">
                   <div className="inline-card pt-4 pb-2 blue-2">
                     <div className="blue-wrapper">
-                      <img src={Rifas} alt="" />
+                      <img src={evaloo} alt="" />
                     </div>
 
-                    <h3 className="ico">Rifa World Company</h3>
-                    <p className="para">Website Design</p>
+                    <h3 className="ico">Evaloo Pay - Payment Application</h3>
+                    <p className="para">Case Study</p>
                   </div>
-                </Link> <Link to="/capstone/ico">
+                </Link>{" "}
+                <Link to="/capstone/ico">
                   <div className="inline-card pt-4 pb-2 blue-2">
                     <div className="blue-wrapper">
-                      <img src={Rifas} alt="" />
+                      <img src={hue} alt="" />
                     </div>
 
-                    <h3 className="ico">Rifa World Company</h3>
-                    <p className="para">Website Design</p>
+                    <h3 className="ico">Heuristic Evaluation</h3>
+                    <p className="para">Case Study</p>
                   </div>
-                </Link> <Link to="/capstone/ico">
+                </Link>{" "}
+                <Link to="/capstone/ico">
                   <div className="inline-card pt-4 pb-2 blue-2">
                     <div className="blue-wrapper">
-                      <img src={Rifas} alt="" />
+                      <img src={ux} alt="" />
                     </div>
 
-                    <h3 className="ico">Rifa World Company</h3>
+                    <h3 className="ico">UX Law’s</h3>
+                    <p className="para">Case Study</p>
+                  </div>
+                </Link>
+                <Link to="/capstone/ico">
+                  <div className="inline-card pt-4 pb-2 blue-2">
+                    <div className="blue-wrapper">
+                      <img src={ram} alt="" />
+                    </div>
+
+                    <h3 className="ico">Hey Ram Infrastructure</h3>
                     <p className="para">Website Design</p>
                   </div>
                 </Link>
+                <Link to="/capstone/ico">
+                  <div className="inline-card pt-4 pb-2 blue-2">
+                    <div className="blue-wrapper">
+                      <img src={jm} alt="" />
+                    </div>
+
+                    <h3 className="ico">JM Frictech India Pvt Ltd</h3>
+                    <p className="para">Website Design</p>
+                  </div>
+                </Link>
+                <Link to="/capstone/ico">
+                  <div className="inline-card pt-4 pb-2 blue-2">
+                    <div className="blue-wrapper">
+                      <img src={Netflix} alt="" />
+                    </div>
+
+                    <h3 className="ico">Netflix</h3>
+                    <p className="para">Landing Page Design</p>
+                  </div>
+                </Link>
+               
               </div>
             </div>
           </div>

@@ -23,32 +23,6 @@
 }
 
 .studies {
-    font-family: "Mako", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 28px !important;
-    line-height: 37px;
-    color: var(--clr);
-}
-
-.designs{
-    font-family: "Mako", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px !important;
-    line-height: 37px;
-    color: var(--Tcolor);
-}
-
-.top-section-div {
-  padding-top: 80px;
-}
-
-.Caps{
-  width: 100%;
-}
-
-.latest{
   font-family: "Mako", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -57,17 +31,57 @@
   color: var(--clr);
 }
 
-.caps-dection{
+.designs {
+  font-family: "Mako", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px !important;
+  line-height: 37px;
+  color: var(--Tcolor);
+}
+
+.top-section-div {
+  padding-top: 80px;
+}
+
+.Caps {
+  width: 100%;
+}
+
+.latest {
+  font-family: "Mako", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px !important;
+  line-height: 37px;
+  color: var(--clr);
+}
+
+.caps-dection {
   position: relative;
   padding-top: 80px;
   padding-bottom: 80px;
 }
-.customline{
+.customline {
   position: absolute;
   top: 65%;
   width: 100%;
 }
 
-.caps-image{
+.caps-image {
   margin-bottom: 120px;
+}
+
+.ico{
+  text-align: left;
+}
+.para {
+  text-decoration: none;
+  color: #333333;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px !important;
+  line-height: 20px;
+  text-align: left;
 }
