@@ -1,13 +1,12 @@
 import React from 'react'
-
 import "./style.css";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
-import peertop from "../../Asserts/peertop.svg";
-import peerfull from "../../Asserts/peerfull.png";
-import Tcypro from "../../Asserts/tcypro.svg";
-import Tph from "../../Asserts/Tph.svg";
-import Tdigi from "../../Asserts/Tdigi.png";
+import Phtop from "../../Asserts/Phtop.png";
+import Phf from "../../Asserts/ph (1).png";
+import Digis from "../../Asserts/Digi-small.png";
+import Voltrixs from "../../Asserts/Voltrix-small.png";
+import beleafts from "../../Asserts/Beleaft-small.png";
 import { Link } from "react-router-dom";
 
 const Ph = () => {
@@ -21,30 +20,26 @@ const Ph = () => {
         <div className="d-flex justify-content-center align-items-baseline ">
           <div className="contents">
             <h3 className="ico mt-3 w-75">
-              Peer to Peer (P2P) Landing page revamp design{" "}
-            </h3>
+            Ph Online Ventures
+            Landing page revamp design            </h3>
             <div className="d-flex w-50 justify-content-between web mt-5">
               <h4>Website Design</h4>
               <h4>2024</h4>
             </div>
             <p className="initial mt-5 w-75">
-              Peer-to-Peer (P2P) is a decentralized network model where users
-              interact directly with each other to exchange goods or services,
-              such as cryptocurrencies, without the need for an intermediary
-              or central authority. Each participant acts as both a buyer and
-              a seller in the transaction.
+            The ph online ventures is one of the information technology company.
             </p>
           </div>
 
           <div className="">
-            <img className="icoimg" src={peertop} alt="" />
+            <img className="icoimg" src={Phtop} alt="" />
           </div>
         </div>
       </div>
       <div className="main-caps container">
         <h3 className="view">Landing Page View</h3>
         <div className="full-image">
-          <img className="ico-full" src={peerfull} alt="" />
+          <img className="ico-full" src={Phf} alt="" />
         </div>
       </div>
 
@@ -59,32 +54,36 @@ const Ph = () => {
           <div className="pt-3 pb-3 some">
             <div className="content-div w-100 d-flex justify-content-center align-items-center gap-5 mb-2"></div>
             <div className=" d-grid  last last-card ">
-              <div className="inline-card pt-4 pb-2 blue-1">
-                <div className="blue-wrapper">
-                  <img src={Tcypro} alt="" />
-                </div>
+            <Link to="/capstone/digi">
+                  <div className="inline-card pt-4 pb-2 blue-2">
+                    <div className="blue-wrapper">
+                      <img src={Digis} alt="" />
+                    </div>
 
-                <h3 className="ico">Crypto Hub</h3>
-                <p className="para">Website Design</p>
-              </div>
+                    <h3 className="ico">Digi Class</h3>
+                    <p className="para">Dashboard Design</p>
+                  </div>
+                </Link>{" "}
+                <Link to="/capstone/voltrix">
+                  <div className="inline-card pt-4 pb-2 blue-2">
+                    <div className="blue-wrapper">
+                      <img src={Voltrixs} alt="" />
+                    </div>
 
-              <div className="inline-card pt-4 pb-2 blue-2">
-                <div className="blue-wrapper">
-                  <img src={Tph} alt="" />
-                </div>
+                    <h3 className="ico">Voltrix</h3>
+                    <p className="para">Pitch Deck</p>
+                  </div>
+                </Link>{" "}
+                <Link to="/capstone/beleaf-trading-bo">
+                  <div className="inline-card pt-4 pb-2 blue-2">
+                    <div className="blue-wrapper">
+                      <img src={beleafts} alt="" />
+                    </div>
 
-                <h3 className="ico">PH Online Ventures</h3>
-                <p className="para">Website Design</p>
-              </div>
-
-              <div className="inline-card pt-4 pb-2 blue-2">
-                <div className="blue-wrapper">
-                  <img src={Tdigi} alt="" />
-                </div>
-
-                <h3 className="ico">Digi Class</h3>
-                <p className="para">Website Design</p>
-              </div>
+                    <h3 className="ico">Beleaf Trading Bot</h3>
+                    <p className="para">Pitch Deck</p>
+                  </div>
+                </Link>{" "}
             </div>
           </div>
         </div>

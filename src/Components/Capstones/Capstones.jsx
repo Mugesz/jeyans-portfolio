@@ -5,7 +5,6 @@ import Caps from "../../Asserts/caps.png";
 import "./Capstones.css";
 import img1 from "../../Asserts/img1.png";
 import img2 from "../../Asserts/img2.png";
-import img3 from "../../Asserts/img3.png";
 import Tcypro from "../../Asserts/tcypro.svg";
 import Tph from "../../Asserts/Tph.svg";
 import Digis from "../../Asserts/Digi-small.png";
@@ -87,7 +86,7 @@ const Capstones = () => {
                     <p className="para">Website Design</p>
                   </div>
                 </Link>
-                <Link to="">
+                <Link to="/capstone/ph-online">
                   <div className="inline-card pt-4 pb-2 blue-2">
                     <div className="blue-wrapper">
                       <img src={Tph} alt="" />
@@ -97,7 +96,7 @@ const Capstones = () => {
                     <p className="para">Website Design</p>
                   </div>
                 </Link>{" "}
-                <Link to="/capstone/ico">
+                <Link to="/capstone/digi">
                   <div className="inline-card pt-4 pb-2 blue-2">
                     <div className="blue-wrapper">
                       <img src={Digis} alt="" />
@@ -107,7 +106,7 @@ const Capstones = () => {
                     <p className="para">Dashboard Design</p>
                   </div>
                 </Link>{" "}
-                <Link to="/capstone/ico">
+                <Link to="/capstone/voltrix">
                   <div className="inline-card pt-4 pb-2 blue-2">
                     <div className="blue-wrapper">
                       <img src={Voltrixs} alt="" />
@@ -117,7 +116,7 @@ const Capstones = () => {
                     <p className="para">Pitch Deck</p>
                   </div>
                 </Link>{" "}
-                <Link to="/capstone/ico">
+                <Link to="/capstone/beleaf-trading-bo">
                   <div className="inline-card pt-4 pb-2 blue-2">
                     <div className="blue-wrapper">
                       <img src={beleafts} alt="" />
@@ -127,7 +126,7 @@ const Capstones = () => {
                     <p className="para">Pitch Deck</p>
                   </div>
                 </Link>{" "}
-                <Link to="/capstone/ico">
+                <Link to="/capstone/Beleaf-Arbitrage-Bot">
                   <div className="inline-card pt-4 pb-2 blue-2">
                     <div className="blue-wrapper">
                       <img src={Beleafa} alt="" />
@@ -137,7 +136,7 @@ const Capstones = () => {
                     <p className="para">Pitch Deck</p>
                   </div>
                 </Link>{" "}
-                <Link to="/capstone/ico">
+                <Link to="/capstone/Rifa-World-Company">
                   <div className="inline-card pt-4 pb-2 blue-2">
                     <div className="blue-wrapper">
                       <img src={Rifs} alt="" />
@@ -147,7 +146,7 @@ const Capstones = () => {
                     <p className="para">Banner Design</p>
                   </div>
                 </Link>
-                <Link to="/capstone/ico">
+                <Link to="/capstone/Rifa-World-Company-2">
                   <div className="inline-card pt-4 pb-2 blue-2">
                     <div className="blue-wrapper">
                       <img src={Rifaw} alt="" />

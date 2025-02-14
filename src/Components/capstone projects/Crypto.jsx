@@ -4,9 +4,7 @@ import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import cryptotop from "../../Asserts/Cryptotop.png";
 import cryptofull from "../../Asserts/crypyofull.png";
-import Tcypro from "../../Asserts/tcypro.svg";
 import Tph from "../../Asserts/Tph.svg";
-import Tdigi from "../../Asserts/Tdigi.png";
 import { Link } from "react-router-dom";
 import Digis from "../../Asserts/Digi-small.png";
 import Voltrixs from "../../Asserts/Voltrix-small.png";
@@ -61,7 +59,7 @@ const Crypto = () => {
             <div className="pt-3 pb-3 some">
               <div className="content-div w-100 d-flex justify-content-center align-items-center gap-5 mb-2"></div>
               <div className=" d-grid  last last-card ">
-              <Link to="">
+              <Link to="/capstone/ph-online">
                   <div className="inline-card pt-4 pb-2 blue-2">
                     <div className="blue-wrapper">
                       <img src={Tph} alt="" />
@@ -71,7 +69,7 @@ const Crypto = () => {
                     <p className="para">Website Design</p>
                   </div>
                 </Link>{" "}
-                <Link to="/capstone/ico">
+                <Link to="/capstone/digi">
                   <div className="inline-card pt-4 pb-2 blue-2">
                     <div className="blue-wrapper">
                       <img src={Digis} alt="" />
@@ -81,7 +79,7 @@ const Crypto = () => {
                     <p className="para">Dashboard Design</p>
                   </div>
                 </Link>{" "}
-                <Link to="/capstone/ico">
+                <Link to="/capstone/voltrix">
                   <div className="inline-card pt-4 pb-2 blue-2">
                     <div className="blue-wrapper">
                       <img src={Voltrixs} alt="" />
