@@ -2,12 +2,12 @@ import React from "react";
 import "./style.css";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
-import peertop from "../../Asserts/peertop.svg";
-import peerfull from "../../Asserts/peerfull.png";
+import peertop from "../../Asserts/P2ptop.png";
+import peerfull from "../../Asserts/p2p (3).png";
 import Tcypro from "../../Asserts/tcypro.svg";
 import Tph from "../../Asserts/Tph.svg";
-import Tdigi from "../../Asserts/Tdigi.png";
 import { Link } from "react-router-dom";
+import Digis from "../../Asserts/Digi-small.png";
 
 const peertopeer = () => {
   return (
@@ -58,32 +58,37 @@ const peertopeer = () => {
             <div className="pt-3 pb-3 some">
               <div className="content-div w-100 d-flex justify-content-center align-items-center gap-5 mb-2"></div>
               <div className=" d-grid  last last-card ">
-                <div className="inline-card pt-4 pb-2 blue-1">
-                  <div className="blue-wrapper">
-                    <img src={Tcypro} alt="" />
+                <Link to="/capstone/Crypto-hub">
+                  {" "}
+                  <div className="inline-card pt-4 pb-2 blue-2">
+                    <div className="blue-wrapper">
+                      <img src={Tcypro} alt="" />
+                    </div>
+
+                    <h3 className="ico">Crypto Hub</h3>
+                    <p className="para">Website Design</p>
                   </div>
+                </Link>
+                <Link to="">
+                  <div className="inline-card pt-4 pb-2 blue-2">
+                    <div className="blue-wrapper">
+                      <img src={Tph} alt="" />
+                    </div>
 
-                  <h3 className="ico">Crypto Hub</h3>
-                  <p className="para">Website Design</p>
-                </div>
-
-                <div className="inline-card pt-4 pb-2 blue-2">
-                  <div className="blue-wrapper">
-                    <img src={Tph} alt="" />
+                    <h3 className="ico">PH Online Ventures</h3>
+                    <p className="para">Website Design</p>
                   </div>
+                </Link>{" "}
+                <Link to="/capstone/ico">
+                  <div className="inline-card pt-4 pb-2 blue-2">
+                    <div className="blue-wrapper">
+                      <img src={Digis} alt="" />
+                    </div>
 
-                  <h3 className="ico">PH Online Ventures</h3>
-                  <p className="para">Website Design</p>
-                </div>
-
-                <div className="inline-card pt-4 pb-2 blue-2">
-                  <div className="blue-wrapper">
-                    <img src={Tdigi} alt="" />
+                    <h3 className="ico">Digi Class</h3>
+                    <p className="para">Dashboard Design</p>
                   </div>
-
-                  <h3 className="ico">Digi Class</h3>
-                  <p className="para">Website Design</p>
-                </div>
+                </Link>{" "}
               </div>
             </div>
           </div>
