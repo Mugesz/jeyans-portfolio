@@ -237,7 +237,6 @@ const Capstones = () => {
                     <p className="para">Landing Page Design</p>
                   </div>
                 </Link>
-               
               </div>
             </div>
           </div>
