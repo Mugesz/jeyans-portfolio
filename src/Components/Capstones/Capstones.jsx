@@ -11,7 +11,6 @@ import Digis from "../../Asserts/Digi-small.png";
 import Voltrixs from "../../Asserts/Voltrix-small.png";
 import beleafts from "../../Asserts/Beleaft-small.png";
 import Beleafa from "../../Asserts/BeleafA-small.png";
-import Rifas from "../../Asserts/Rifa-small.png";
 import Rifs from "../../Asserts/Rifaw-small.png";
 import Rifaw from "../../Asserts/Rifaw-small.png";
 import Brand from "../../Asserts/BrandI-small.png";
