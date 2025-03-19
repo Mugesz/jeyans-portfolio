@@ -91,7 +91,7 @@
   transition: transform 0.2s ease; /* Smooth card hover effect */
   min-height: 220px; /* Ensures a consistent card height */
   box-sizing: border-box; /* Include padding in height calculation */
-  height: 40vh;
+  height: 50vh;
 }
 
 .inline-card img {
